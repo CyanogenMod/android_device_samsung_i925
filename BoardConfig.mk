@@ -21,5 +21,9 @@
 TARGET_KERNEL_SOURCE := kernel/samsung/smdk4412
 TARGET_KERNEL_CONFIG := cyanogenmod_i925_defconfig
 
+# Recovery
+TARGET_RECOVERY_FSTAB := device/samsung/i925/rootdir/fstab.smdk4x12
+RECOVERY_FSTAB_VERSION := 2
+
 # assert
 TARGET_OTA_ASSERT_DEVICE := p4noteltevzw,i925,SCH-I925
