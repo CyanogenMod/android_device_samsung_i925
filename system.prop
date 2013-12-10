@@ -52,3 +52,6 @@ persist.radio.snapshot_disabled=1
 # Default ECCList (Except USCC)
 ro.ril.ecclist=112,911,#911,*911
 
+# Set default cdma subscription to RUIM in database
+ro.telephony.default_cdma_sub=0
+

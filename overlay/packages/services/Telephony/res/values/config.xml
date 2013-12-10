@@ -29,11 +29,4 @@
          are routed through the android.media.AudioManager class (true) or through
          the com.android.internal.telephony.Phone interface (false). -->
     <bool name="send_mic_mute_to_AudioManager">true</bool>
-
-    <!-- Determine whether we want to display the OTA activation screen, which
-         gives the user option to activate or cancel -->
-    <integer name="OtaShowActivationScreen">0</integer>
-    <!-- Determine whether we should show the "listen for instructions" screen after
-         successfully placing the OTA call -->
-    <integer name="OtaShowListeningScreen">1</integer>
 </resources>
