@@ -9,6 +9,7 @@ ro.lcd_min_brightness=20
 telephony.lteOnCdmaDevice=1
 persist.radio.no_wait_for_card=1
 ro.hdcp2.rx=tz
+ro.ril.telephony.mqanelements=6
 
 #
 # Needed to match behavior of stock rom
